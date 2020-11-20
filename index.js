@@ -12,6 +12,7 @@ try {
     console.log(`index.js: env_value=${env_value}`);
     core.exportVariable(env_name, env_value);
 } catch (error) {
+    console.log(`index.js: ERROR ${error.message}`);
     core.setFailed(error.message);
 } finally {
     const payload = JSON.stringify(github.context.payload, undefined, 2);
