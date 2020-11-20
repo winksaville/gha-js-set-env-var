@@ -1,0 +1,20 @@
+{
+  "name": "js-set-env-var",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winksaville/action-js-setup-python.git"
+  },
+  "keywords": [],
+  "author": "Wink Saville <wink@saville.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
